@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinopoisk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="top">
+        <a href="./index.html" target="_self" style="margin-left:50px">
+            <img src="https://yastatic.net/s3/kinopoisk-frontend/special-static-www/release-504/dist/branding/dist/static/images/icons/icon-kp.png" 
+            height="60px" width="60px">
+        </a>
+        <div style="font-size:30px; font-family:'Unbounded', cursive; 
+        margin-left:25px; display:flex;  font-weight:700;
+        color:white">
+            Кинопоиск
+        </div>
+        <!-- right space for user data show div class user imho--> 
+    </div> 
+    <div id="posts">
+
+    </div>
+    <script src="main.js"></script>
+    <div class="pages">
+        <button onclick="change_page(1)"><div class="page" id="p1">1</div></button>
+        <button onclick="change_page(2)"><div class="page" id="p2">2</div></button>
+        <button onclick="change_page(3)"><div class="page" id="p3">3</div></button>
+        <button onclick="change_page(4)"><div class="page" id="p4">4</div></button>
+        <button onclick="change_page(5)"><div class="page" id="p5">5</div></button>
+    </div>
+</body>
+</html>

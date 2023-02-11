@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(34, 34, 34);
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+#posts{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin:10px;
+    width:100%;
+    justify-content:center;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:15px;
+    color:rgb(219, 208, 193);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 25%;
+}
+
+/* ПОЧЕМУ ХОВЕР НЕ РАБОТАЕТ КАК НАДООООО */
+h4 {
+    color:rgb(219, 208, 193);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+button{
+    background-color: inherit;
+}
+button :hover{
+    background-color: rgb(61, 61, 61);
+}
+.top{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    color:white;
+
+}
+.aaa:hover{
+    background-color:rgb(70, 69, 69)
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    margin-top:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    display: flex;
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    margin-right: 40px;
+    font-size: 18;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+
+}
+button{
+    border:none;
+    cursor: pointer;
+}
+.page :hover{
+    background-color: beige;
+    color:black;
+    
+}
