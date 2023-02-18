@@ -127,3 +127,31 @@ button{
     border:none;
     cursor: pointer;
 }
+#postComm{
+    display:flex;
+    height:30px;
+    width:80px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(255, 147, 46);
+    font-size: 18;
+    font-family: 'Roboto', sans-serif;
+    margin-top:10px;
+}
+.stars button{
+    background-color:initial;
+    color:rgb(109, 109, 109)
+}
+.stars button:checked{
+    color:white;
+}
+
+.comment{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:70%;
+    height:fit-content;
+
+}
