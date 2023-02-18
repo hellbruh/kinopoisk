@@ -1,5 +1,5 @@
 let filmPoster = document.querySelector('#pos')
-
+// dddd
 let filmNameId = document.querySelector('#filmName') 
 let filmYearId = document.querySelector('#filmYear') 
 let filmDescriptionId = document.querySelector('#filmDescription') 
