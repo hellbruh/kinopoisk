@@ -1,5 +1,5 @@
 let filmPoster = document.querySelector('#pos')
-// dddd
+
 let filmNameId = document.querySelector('#filmName') 
 let filmYearId = document.querySelector('#filmYear') 
 let filmDescriptionId = document.querySelector('#filmDescription') 
@@ -10,6 +10,7 @@ let filmRatingId1 = document.querySelector('#filmRating1')
 let filmRatingId2 = document.querySelector('#filmRating2')
 let commentText = document.querySelector('#commentText')
 
+let commentTextId = document.querySelector('#commentText')
 // получаем айдишник фильма из query parameter
 let filmID = window.location.href
 filmID = filmID.split('=')
